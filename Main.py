@@ -18,10 +18,8 @@ from telegram.ext import (
 )
 import os
 # Конфигурация
-TOKEN = os.getenv("api")
+TOKEN = ""
 TEMPMAIL_API = "https://www.1secmail.com/api/v1/"
-BRAINSHOP_API = "http://api.brainshop.ai/get?bid=178&key=hcKr59qZNM5gTbxX&uid={uid}&msg={msg}"
-
 # Инициализация
 wikipedia.set_lang("ru")
 user_emails = {}
